@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+       <div class="container">
+        <div class="header-top">
+        <div class="about">
+            <p class="about__title">Chat with us</p> 
+            <a class="about__tel-num" href="tel:+#">+420 336 775 664</a>
+            <a class="about__email" href="#">info@freshnesecom.com</a> 
+        </div>
+        <nav class="header__nav">
+            <a class="nav__silk" href="#">Blog</a>
+            <a class="nav__silk" href="#">About Us</a>
+            <a class="nav__silk" href="#">Careers</a>
+        </nav>
+        </div>
+        <div class="gorizontal"></div>
+        <div class="header-center">
+           <img class="company-img" src="./assets/Freshnesecom.svg" alt="">
+           <div class="inp">
+          <div class="dropdown">
+            <button class="categories-btn">All categories<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                </svg></button>
+                <div class="dropdown-content">
+                   <ul class="content__ul">
+                    <li class="content__li"><a class="li__silk" href="#">Bakery</a></li>
+                    <li class="content__li"><a class="li__silk" href="#">Deserts</a></li>
+                    <li class="content__li"><a class="li__silk" href="#">Meat and fish</a></li>
+                    <li class="content__li"><a class="li__silk" href="#">Salats</a></li>
+                   </ul>
+                </div>
+          </div>
+          <form class="center__form">
+          <input class="center__inp" type="text" placeholder="Search Products, categories ...">
+          <button class="search-icon" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M9.19303 11.4333C11.7704 11.4333 13.8597 9.34394 13.8597 6.76661C13.8597 4.18928 11.7704 2.09995 9.19303 2.09995C6.61571 2.09995 4.52637 4.18928 4.52637 6.76661C4.52637 9.34394 6.61571 11.4333 9.19303 11.4333Z" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+            <path d="M5.81319 10.24L2.68652 13.3667" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+            </svg></button>
+          </form>
+           </div>
+          <div class="user-icons">
+            <img class="user-icon" src="./assets/ic-actions-user.svg" alt="">
+            <div class="basket">
+                <a href="./index3.html"><img class="basket-icon" src="./assets/Layer.svg" alt=""></a>
+                <img class="check-icon" src="./assets/Group 21.svg" alt="">
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="header-bottom">
+        <div class="container">
+        <div class="header-bottom__nav">
+            <div class="dropdown1">
+            <a class="nav__silk1" href="#">Bakery<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                </svg></a>
+                <div class="dropdown-content1">
+                    <ul class="content__ul">
+                        <li class="content__li"><a class="li__silk" href="#">Breads</a></li>
+                        <li class="content__li"><a class="li__silk" href="#">Cakes</a></li>
+                        <li class="content__li"><a class="li__silk" href="#">Pies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Fruit and vegetables<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content2">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">Apples</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Bananas</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Pineapples</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Carrots</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Potatos</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Onions</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Meat and fish<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">Beefs</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Chickens</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Muttons</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Salmons</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Crabs</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Shark meat</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Drinks<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">Cold drinks</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Alcohols</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Teas</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Coffees</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Kitchen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">Appliances</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Dish & Cutlery</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Kitchen tools</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">Storage</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Special nutrition<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Baby<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dropdown1">
+                <a class="nav__silk1" href="#">Pharmacy<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></a>
+                    <div class="dropdown-content1">
+                        <ul class="content__ul">
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                            <li class="content__li"><a class="li__silk" href="#">?</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        </div>
+       </div>
+    </header>
+    <main>
+       <div class="container">
+        <div class="main-top-content">
+            <div class="sidebar">
+                <p class="sidebar__title">Category menu</p>
+                <ul class="sidebar__ul">
+                    <li><a class="sidebar__a" href="#">Bakery</a></li>
+                    <li><a class="sidebar__a" href="./index1.html">Fruit and vegetables</a></li>
+                    <li><a class="sidebar__a" href="#">Meat and fish</a></li>
+                    <li><a class="sidebar__a" href="#">Drinks</a></li>
+                    <li><a class="sidebar__a" href="#">Kitchen</a></li>
+                </ul>
+                <button class="sidebar__btn" type="submit">More categories<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path d="M7.0332 11.1867L9.7732 8.44669C9.89737 8.32178 9.96706 8.15281 9.96706 7.97669C9.96706 7.80056 9.89737 7.63159 9.7732 7.50669L7.10654 4.84002" stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+            <div class="recepies">
+                <div class="first-recep">
+                    <p class="recep__banner">Banner subfocus</p>
+                    <p class="recep__title">Space for heading</p>
+                    <button class="recep__btn">Read recepies<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M7.0332 11.6867L9.7732 8.94669C9.89737 8.82178 9.96706 8.65281 9.96706 8.47669C9.96706 8.30056 9.89737 8.13159 9.7732 8.00669L7.10654 5.34002" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                        </svg></button>
+                </div>
+                <div class="first-recep">
+                    <p class="recep__banner">Banner subfocus</p>
+                    <p class="recep__title">Space for heading</p>
+                    <button class="recep__btn">Read recepies<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M7.0332 11.6867L9.7732 8.94669C9.89737 8.82178 9.96706 8.65281 9.96706 8.47669C9.96706 8.30056 9.89737 8.13159 9.7732 8.00669L7.10654 5.34002" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+        <div class="main-top-content1">
+            <div class="sidebar">
+                <p class="sidebar__title">Best selling products</p>
+                <ul class="sidebar__ul">
+                    <li><a class="sidebar__a" href="#">Kitchen</a></li>
+                    <li><a class="sidebar__a" href="#">Meat and fish</a></li>
+                    <li><a class="sidebar__a" href="#">Special nutrition</a></li>
+                    <li><a class="sidebar__a" href="#">Pharmacy</a></li>
+                    <li><a class="sidebar__a" href="#">Baby</a></li>
+                </ul>
+                <button class="sidebar__btn" type="submit">More categories<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path d="M7.0332 11.1867L9.7732 8.44669C9.89737 8.32178 9.96706 8.15281 9.96706 7.97669C9.96706 7.80056 9.89737 7.63159 9.7732 7.50669L7.10654 4.84002" stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+            <div class="recepies">
+               <div class="first-product">
+                <img src="./assets/Image-light.png" alt="">
+                <div class="product__info">
+                    <p class="product__title">Product Title</p>
+                    <p class="product__description">Space for a small product description </p>
+                    <div class="product-price">
+                        <p class="price">1.48 USD</p>
+                        <button class="buy-now-btn" type="submit">Buy now</button>
+                    </div>
+                </div>
+               </div>
+               <div class="first-product">
+               <div class="discount">
+                <p class="discount-percent">- 36 %</p>
+                <img src="./assets/Image-light.png" alt="">
+               </div>
+                <div class="product__info">
+                    <p class="product__title">Product Title</p>
+                    <p class="product__description">Space for a small product description </p>
+                    <div class="product-price">
+                      <div class="prices">
+                        <p class="price">0.28 USD</p>
+                        <p class="old-price">48.56</p>
+                      </div>
+                        <button class="buy-now-btn" type="submit">Buy now</button>
+                    </div>
+                </div>
+               </div>
+               <div class="first-product">
+                <div class="discount">
+                 <p class="discount-percent">- 36 %</p>
+                 <img src="./assets/Image-light.png" alt="">
+                </div>
+                 <div class="product__info">
+                     <p class="product__title">Product Title</p>
+                     <p class="product__description">Space for a small product description </p>
+                     <div class="product-price">
+                       <div class="prices">
+                         <p class="price">1.12 USD</p>
+                         <p class="old-price">48.56</p>
+                       </div>
+                         <button class="buy-now-btn" type="submit">Buy now</button>
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-top-content1">
+            <div class="sidebar">
+                <p class="sidebar__title">Best from Farmers</p>
+                <ul class="sidebar__ul">
+                    <li><a class="sidebar__a" href="./index2.html">Carrots</a></li>
+                    <li><a class="sidebar__a" href="#">Tomatoes</a></li>
+                    <li><a class="sidebar__a" href="#">Potatoes</a></li>
+                    <li><a class="sidebar__a" href="#">Chicken</a></li>
+                    <li><a class="sidebar__a" href="#">Pork</a></li>
+                </ul>
+                <button class="sidebar__btn" type="submit">More categories<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path d="M7.0332 11.1867L9.7732 8.44669C9.89737 8.32178 9.96706 8.15281 9.96706 7.97669C9.96706 7.80056 9.89737 7.63159 9.7732 7.50669L7.10654 4.84002" stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+            <div class="recepies">
+               <div class="first-product">
+                <img src="./assets/Image-light.png" alt="">
+                <div class="product__info">
+                    <p class="product__title">Product Title</p>
+                    <p class="product__description">Space for a small product description </p>
+                    <div class="product-price">
+                        <p class="price">1.48 USD</p>
+                        <button class="buy-now-btn" type="submit">Buy now</button>
+                    </div>
+                </div>
+               </div>
+               <div class="first-product">
+               <div class="discount">
+                <p class="discount-percent">- 36 %</p>
+                <img src="./assets/Image-light.png" alt="">
+               </div>
+                <div class="product__info">
+                    <p class="product__title">Product Title</p>
+                    <p class="product__description">Space for a small product description </p>
+                    <div class="product-price">
+                      <div class="prices">
+                        <p class="price">0.28 USD</p>
+                        <p class="old-price">48.56</p>
+                      </div>
+                        <button class="buy-now-btn" type="submit">Buy now</button>
+                    </div>
+                </div>
+               </div>
+               <div class="first-product">
+                <div class="discount">
+                 <p class="discount-percent">- 36 %</p>
+                 <img src="./assets/Image-light.png" alt="">
+                </div>
+                 <div class="product__info">
+                     <p class="product__title">Product Title</p>
+                     <p class="product__description">Space for a small product description </p>
+                     <div class="product-price">
+                       <div class="prices">
+                         <p class="price">1.12 USD</p>
+                         <p class="old-price">48.56</p>
+                       </div>
+                         <button class="buy-now-btn" type="submit">Buy now</button>
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="gorizontal1"></div>
+       <div class="container">
+        <div class="reviews">
+            <div class="reviews-title">
+                <p class="title">Our customers says</p>
+                <button class="title__btn" type="submit">Button<svg xmlns="http://www.w3.org/2000/svg" width="6" height="9" viewBox="0 0 6 9" fill="none">
+                    <path d="M1.5332 7.68663L4.2732 4.94663C4.39737 4.82172 4.46706 4.65276 4.46706 4.47663C4.46706 4.30051 4.39737 4.13154 4.2732 4.00663L1.60654 1.33997" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+        </div>
+       </div>
+       <div class="reviews-people">
+        <div class="people">
+            <div class="people__img">
+        <div class="first-people">
+            <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+             what you <br> need by writiing a text here “</p>
+             <p class="people-name">Name and Surname</p>
+        </div>
+        <img class="people-img" src="./assets/ellipse.svg" alt="">
+            </div>
+            <div class="people__img">
+        <div class="first-people">
+            <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+             what you <br> need by writiing a text here “</p>
+             <p class="people-name">Name and Surname</p>
+             
+        </div>
+        <img class="people-img" src="./assets/Ellipse 1.svg" alt="">
+            </div>
+            <div class="people__img">
+        <div class="first-people">
+            <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+             what you <br> need by writiing a text here “</p>
+             <p class="people-name">Name and Surname</p>
+        </div>
+        <img class="people-img" src="./assets/ellipse1.svg"  alt="">
+            </div>
+            <div class="people__img">
+        <div class="first-people">
+            <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+             what you <br> need by writiing a text here “</p>
+             <p class="people-name">Name and Surname</p>
+        </div>
+        <img class="people-img" src="./assets/ellipse2.svg" alt="">
+            </div>
+            <div class="people__img">
+                <div class="first-people">
+                    <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+                     what you <br> need by writiing a text here “</p>
+                     <p class="people-name">Name and Surname</p>
+                </div>
+                <img class="people-img" src="./assets/ellipse.svg" alt="">
+            </div>
+            <div class="people__img">
+                <div class="first-people">
+                    <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+                     what you <br> need by writiing a text here “</p>
+                     <p class="people-name">Name and Surname</p>
+                     
+                </div>
+                <img class="people-img" src="./assets/Ellipse 1.svg" alt="">
+            </div>
+            <div class="people__img">
+                <div class="first-people">
+                    <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+                     what you <br> need by writiing a text here “</p>
+                     <p class="people-name">Name and Surname</p>
+                </div>
+                <img class="people-img" src="./assets/ellipse1.svg"  alt="">
+            </div>
+            <div class="people__img">
+                <div class="first-people">
+                    <p class="people-comment">“ This is an super space for your <br> customers qoute. Don’t worry it works <br> smooth as pie. You will get all
+                     what you <br> need by writiing a text here “</p>
+                     <p class="people-name">Name and Surname</p>
+                </div>
+                <img class="people-img" src="./assets/ellipse2.svg" alt="">
+            </div>
+        </div>
+       </div>
+       <div class="container">
+        <div class="reviews">
+            <div class="reviews-title1">
+                <p class="title">Section Headline</p>
+                <button class="title__btn" type="submit">Button<svg xmlns="http://www.w3.org/2000/svg" width="6" height="9" viewBox="0 0 6 9" fill="none">
+                    <path d="M1.5332 7.68663L4.2732 4.94663C4.39737 4.82172 4.46706 4.65276 4.46706 4.47663C4.46706 4.30051 4.39737 4.13154 4.2732 4.00663L1.60654 1.33997" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+        </div>
+        <div class="recepies1">
+            <div class="first-product">
+             <img src="./assets/Image-light.png" alt="">
+             <div class="product__info">
+                 <p class="product__title">Product Title</p>
+                 <p class="product__description">Space for a small product description </p>
+                 <div class="product-price">
+                     <p class="price">3.26 USD</p>
+                     <button class="buy-now-btn" type="submit">Buy now</button>
+                 </div>
+             </div>
+            </div>
+            <div class="first-product">
+             <img src="./assets/Image-light.png" alt="">
+             <div class="product__info">
+                 <p class="product__title">Product Title</p>
+                 <p class="product__description">Space for a small product description </p>
+                 <div class="product-price">
+                     <p class="price">1.48 USD</p>
+                     <button class="buy-now-btn" type="submit">Buy now</button>
+                 </div>
+             </div>
+            </div>
+            <div class="first-product">
+             <div class="discount">
+              <p class="discount-percent">- 36 %</p>
+              <img src="./assets/Image-light.png" alt="">
+             </div>
+              <div class="product__info">
+                  <p class="product__title">Product Title</p>
+                  <p class="product__description">Space for a small product description </p>
+                  <div class="product-price">
+                    <div class="prices">
+                      <p class="price">0.28 USD</p>
+                      <p class="old-price">48.56</p>
+                    </div>
+                      <button class="buy-now-btn" type="submit">Buy now</button>
+                  </div>
+              </div>
+            </div>
+             <div class="first-product">
+                <img src="./assets/Image-light.png" alt="">
+                <div class="product__info">
+                    <p class="product__title">Product Title</p>
+                    <p class="product__description">Space for a small product description </p>
+                    <div class="product-price">
+                        <p class="price">1.12 USD</p>
+                        <button class="buy-now-btn" type="submit">Buy now</button>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="reviews">
+            <div class="reviews-title1">
+                <p class="title">Read our Blog posts</p>
+                <button class="title__btn" type="submit"><a class="btn__silk" href="#">Go to Blog</a><svg xmlns="http://www.w3.org/2000/svg" width="6" height="9" viewBox="0 0 6 9" fill="none">
+                    <path d="M1.5332 7.68663L4.2732 4.94663C4.39737 4.82172 4.46706 4.65276 4.46706 4.47663C4.46706 4.30051 4.39737 4.13154 4.2732 4.00663L1.60654 1.33997" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    </svg></button>
+            </div>
+        </div>
+        <div class="foods-recepts">
+            <div class="first-food">
+                <p class="dinner">Dinner tips</p>
+                <h4 class="our-chef">Our chef tips for a great and tasty <br> dinner ready in 20 minutes</h4>
+                <div class="post-date">
+                    <img src="./assets/Small.svg" alt="">
+                    <p class="name">Author</p>
+                    <p class="date">17. 6. 2020</p>
+                </div>
+            </div>
+            <div class="second-food">
+                <img src="./assets/image-light2.png" alt="">
+                <div class="about-food">
+                    <p class="vegetable-food">Vegetable</p>
+                    <p class="about">Which vegetable your family <br> will love and want’s eat each <br> day</p>
+                    <div class="food-date">
+                        <p class="name2">Author</p>
+                        <p class="date2">15. 6. 2020</p>
+                    </div>
+                </div>
+            </div>
+            <div class="third-food">
+                <div class="third__first-food">
+                    <div>
+                    <p class="food__about">Salat is kinda good start to <br> your morning routines</p>
+                    <div class="food-date">
+                        <p class="name2">Author</p>
+                        <p class="date2">14.1.2020</p>
+                    </div>
+                    </div>
+                    <img src="./assets/food-img1.png" alt="">
+                </div>
+                <div class="third__first-food">
+                    <div>
+                    <p class="food__about">Our chef tips for a great and <br> healthy breakfast</p>
+                    <div class="food-date">
+                        <p class="name2">Author</p>
+                        <p class="date2">14.1.2020</p>
+                    </div>
+                    </div>
+                    <img src="./assets/food-img2.png" alt="">
+                </div>
+                <div class="third__first-food">
+                    <div>
+                    <p class="food__about">Prepare a simple and <br> delicious breads</p>
+                    <div class="food-date">
+                        <p class="name2">Author</p>
+                        <p class="date2">14.1.2020</p>
+                    </div>
+                    </div>
+                    <img src="./assets/food-img3.png" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="silks">
+            <div>
+            <p class="silks__title">Get in touch</p>
+            <ul class="silks__ul">
+                <li><a class="ul__silk" href="#">About Us</a></li>
+                <li><a class="ul__silk" href="#">Careers</a></li>
+                <li><a class="ul__silk" href="#">Press Releases</a></li>
+                <li><a class="ul__silk" href="#">Blog</a></li>
+            </ul>
+            </div>
+            <div>
+                <p class="silks__title">Connections</p>
+                <ul class="silks__ul">
+                    <li><a class="ul__silk" href="#">Facebook</a></li>
+                    <li><a class="ul__silk" href="#">Twitter</a></li>
+                    <li><a class="ul__silk" href="#">Instagram</a></li>
+                    <li><a class="ul__silk" href="#">Youtube</a></li>
+                    <li><a class="ul__silk" href="#">LinkedIn</a></li>
+                </ul>
+            </div> 
+            <div>
+                <p class="silks__title">Earnings</p>
+                <ul class="silks__ul">
+                    <li><a class="ul__silk" href="#">Become an Affiliate</a></li>
+                    <li><a class="ul__silk" href="#">Advertise your product</a></li>
+                    <li><a class="ul__silk" href="#">Sell on Market</a></li>
+                </ul>
+            </div> 
+            <div>
+                <p class="silks__title">Account</p>
+                <ul class="silks__ul">
+                    <li><a class="ul__silk" href="#">Your account</a></li>
+                    <li><a class="ul__silk" href="#">Returns Centre</a></li>
+                    <li><a class="ul__silk" href="#">100 % purchase protection</a></li>
+                    <li><a class="ul__silk" href="#">Chat with us</a></li>
+                    <li><a class="ul__silk" href="#">Help</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div class="product-tags">
+            <p class="tags__title">Product tags</p> 
+            <div class="tags">
+                <p class="tag">Beans</p>
+                <p class="tag">Carrots</p>
+                <p class="tag">Apples</p>
+                <p class="tag">Garlic</p>
+                <p class="tag">Mushrooms</p>
+                <p class="tag">Tomatoes</p>
+                <p class="tag">Chilli peppers</p>
+                <p class="tag">Broccoli</p>
+                <p class="tag">Watermelons</p>
+                <p class="tag">Oranges</p>
+                <p class="tag">Bananas</p>
+                <p class="tag">Grapes</p>
+            </div>
+            <div class="tags2">
+                <p class="tag">Cherries</p>
+                <p class="tag">Meat</p>
+                <p class="tag">Seo tag</p>
+                <p class="tag">Fish</p>
+                <p class="tag">Seo tag</p>
+                <p class="tag">Fresh food</p>
+                <p class="tag">Lemons</p>
+            </div>
+        </div>
+        <p class="link">Copyright © 2020 petrbilek.com</p>
+       </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
